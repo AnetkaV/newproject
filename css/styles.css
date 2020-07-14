@@ -1,9 +1,36 @@
+.heading1 {
+    position: absolute;
+    z-index: 20;
+    left: 2vmax;
+    top: 10vmin;
+}
+.pagination {
+    display: inline-block;
+  }
+  
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
 body {
-    background-color: white;
+    color: rgb(49, );
+    font-family: sans-serif;
+    margin: 0;
+}
+
+
+img {
     
+    padding: 0rem 0rem 6rem 0rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
 }
 
-.section { 
+.section {
     padding: 3rem 0rem 6rem 0rem;
-}
-
+  }
