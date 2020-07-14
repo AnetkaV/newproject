@@ -3,6 +3,10 @@
     z-index: 20;
     left: 2vmax;
     top: 10vmin;
+    font-size: 15vmin;
+    font-weight: bolder;
+    color: #a8b2bd;
+    text-shadow: 2px 2px 5px #413a33;
 }
 .pagination {
     display: inline-block;
@@ -29,6 +33,17 @@ img {
     margin-right: auto;
     max-width: 100%;
     height: auto;
+}
+.mapy1{
+    position: absolute;
+    z-index: 20;
+    right: 2vmax;
+    top: 10vmin;
+    height: 30vmin;
+    width: 35vmin;
+}
+.bg-light{
+    background-color: #e2ded5 !important;
 }
 
 .section {
