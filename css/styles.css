@@ -1,0 +1,16 @@
+.heading1 {
+    position: absolute;
+    z-index: 20;
+    left: 2vmax;
+    top: 10vmin;
+}
+.pagination {
+    display: inline-block;
+  }
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
