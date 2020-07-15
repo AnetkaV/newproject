@@ -134,4 +134,17 @@ img {
 }
 .bcrnd{
   background-color: #dbab7c;
+
+
+
+.footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background: #111;
+}
+
+.main-content {
+    display: flex;
+
 }
