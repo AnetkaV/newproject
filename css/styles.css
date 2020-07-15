@@ -46,7 +46,7 @@ img {
     background-color: #e2ded5 !important;
 }
 
-section {
+.text {
     padding: 3rem 0rem 6rem 0rem;
     position: absolute !important;
     z-index: 20 !important;
@@ -55,9 +55,12 @@ section {
     font-size: 5vmin;
     font-weight: bolder;
     color: #a8b2bd;
-    width: 130vmin;
+    width: 120vmin;
     color: #a8b2bd;
     text-shadow: 2px 2px 5px #413a33;
+  }
+  .text h2{
+      
   }
   .tooltip {
     position: relative;
