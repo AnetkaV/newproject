@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    background-color: #e2ded5;
+    color: #2e1c0a;
+}
+img {
+    width:50%;
+}
+iframe{
+    float: right;
+    width: 50%;
+}
+div{
+    column-count: 2;
+    column-gap: 40px;
+    column-rule-style: solid;
+    column-rule-width: 1px;
+    column-rule-color: lightblue;
+}
+p{
+    margin: 10%;
+}

@@ -100,19 +100,20 @@ img {
 .dropdown-menu{
   width: 100% !important;
   z-index: 0 !important;
-  text-shadow: 0 !important;
+  text-shadow: none !important;
   background-color: #dbab7c !important;
   border-radius: 0%;
   margin-top: 0;
   border: none;
+  z-index: 0 !important;
 }
 .dropdown {
   width: 100% !important;
-  position: relative;
   display: inline-block;
-  text-shadow: 0 !important;
+  text-shadow: none !important;
   right: 0;
   color: #94500b !important;
+  z-index: 0 !important;
 }
 .sort {
   background-color: #413a33 !important;
@@ -132,9 +133,9 @@ img {
 .btn{
   box-shadow: none !important;
 }
-.bcrnd{
-  background-color: #dbab7c;
-
+.bcrnd {
+    background-color: #dbab7c;
+}
 
 
 .footer {
