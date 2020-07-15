@@ -54,14 +54,13 @@ img {
     right: 2vmax !important;
     top: 35vmin !important;
     font-size: 5vmin;
-    font-weight: bolder;
     color: #a8b2bd;
     width: 120vmin;
     color: #a8b2bd;
-    text-shadow: 2px 2px 5px #413a33;
+    text-shadow: 2px 2px 5px #413a33 !important;
   }
   .text h2{
-      
+      font-weight: bold;
   }
   .tooltip {
     position: relative;
