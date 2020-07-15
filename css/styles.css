@@ -49,8 +49,6 @@ img {
 section {
     padding: 3rem 0rem 6rem 0rem;
 
-}
-=======
     position: absolute !important;
     z-index: 20 !important;
     right: 2vmax !important;
@@ -86,5 +84,5 @@ section {
   /* Show the tooltip text when you mouse over the tooltip container */
   .tooltip:hover .tooltiptext {
     visibility: visible;
+
   }
->>>>>>> 3d3ac14a9a3cba0e0257e6c936558f4b72986a1f
