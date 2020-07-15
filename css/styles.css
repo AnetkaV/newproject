@@ -87,3 +87,17 @@ img {
 .hidden {
   visibility: hidden;
 }
+
+
+
+.footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background: #111;
+}
+
+.main-content {
+    display: flex;
+
+}
