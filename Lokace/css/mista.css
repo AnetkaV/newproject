@@ -2,7 +2,7 @@
 body{
     margin: 0;
     background-color: #e2ded5;
-    color: #2e1c0a !important;
+    color: #2e1c0a;
 }
 
 iframe{
@@ -30,13 +30,14 @@ iframe{
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 *{
   margin: 0;
-  padding: 0;
-  color: #d9d9d9 ;
+  padding: 0;;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
 
-
+.main-content {
+  color: #d9d9d9;
+}
 
 footer {
     position: static;
