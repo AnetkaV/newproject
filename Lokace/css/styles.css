@@ -42,20 +42,12 @@ img {
     max-width: 100%;
     height: auto;
 }
-.mapy1{
-    position: absolute;
-    z-index: 20;
-    right: 2vmax;
-    top: 10vmin;
-    height: 30vmin;
-    width: 35vmin;
-}
 .bg-light{
-    background-color: #e2ded5 !important;
+    background-color: #dcdbe1 !important;
 }
 
 header{
-  background-color: #ceb296;
+  background-color: #dcdbe1;
 }
 
 
