@@ -138,7 +138,6 @@ section {
   background-color: #a77544 !important;
   color: #dbab7c !important;
   width: 100% !important;
-  border-radius: 0%;
   text-align: left;
 }
 .dropdown-item:hover{
@@ -152,7 +151,9 @@ section {
 .btn{
   box-shadow: none !important;
 }
-
+.btn-secondary{
+  border-color: #ceb296 !important;
+}
 .bcrnd{
   background-color: #ceb296;
 
