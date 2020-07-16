@@ -150,12 +150,13 @@ section {
 }
 .btn{
   box-shadow: none !important;
+  font-size: 20px;
 }
 .btn-secondary{
-  border-color: #ceb296 !important;
+  border-color: #f3e6be !important;
 }
 .bcrnd{
-  background-color: ##f3e6be ;
+  background-color: #f3e6be ;
 
 }
 
