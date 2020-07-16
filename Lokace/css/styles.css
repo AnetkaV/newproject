@@ -122,7 +122,7 @@ section {
 .dropdown-menu{
   width: 100% !important;
   text-shadow: none !important;
-  background-color: #ffd2f9 !important;
+  background-color: #ffd2f9  !important;
   border-radius: 0%;
   margin-top: 0;
   border: none;
@@ -135,14 +135,14 @@ section {
   color: #b33572 !important;
 }
 .sort {
-  background-color: #ffd2f9 !important;
+  background-color:#ffd2f9  !important;
   color: #b33572 !important;
   width: 100% !important;
   text-align: left;
 }
 .dropdown-item:hover{
   color: #b33572 !important;
-  background-color: #ffd2f9  !important;
+  background-color: #b8e3ea  !important;
   font-weight: bold;
 }
 .car:hover{
