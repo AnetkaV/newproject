@@ -2,7 +2,7 @@
 body{
     margin: 0;
     background-color: #e2ded5;
-    color: #2e1c0a;
+    color: #2e1c0a !important;
 }
 
 iframe{
