@@ -1,3 +1,10 @@
+body {
+  color: rgb(49, 58, 69) !important;
+  background-color: #d9ebe9;
+  font-family: sans-serif;
+  margin: 0;
+}
+
 .heading1 {
     position: absolute;
     z-index: 20;
@@ -18,19 +25,20 @@
     padding: 8px 16px;
     text-decoration: none;
   }
-body {
-    
-    font-family: sans-serif;
-    margin: 0;
+  
+
+.container1 {
+  width: 60vw;
+  margin: 0 auto;
+ 
 }
 
-.banner {
-  background-color: #d9ebe9;
+.carousel-indicator {
+  background-color: white;
 }
 
 
 img {
-    
     padding: 0rem 0rem 6rem 0rem;
     display: block;
     margin-left: auto;
@@ -50,9 +58,6 @@ img {
     background-color: #e2ded5 !important;
 }
 
-.container {
-  width: 60vw;
-  margin: 0 auto;
 
 }
 header{
@@ -75,9 +80,9 @@ section {
     right: 2vmax !important;
     top: 35vmin !important;
     font-size: 5vmin;
-    color: #a8b2bd;
+    color: rgb(49, 58, 69);
     width: 120vmin;
-    color: #a8b2bd;
+    color: rgb(49, 58, 69);
     text-shadow: 2px 2px 5px #413a33 !important;
   }
   .text h2{
@@ -166,7 +171,7 @@ section {
 *{
   margin: 0;
   padding: 0;
-  color: #d9d9d9;
+  color: #d9d9d9 ;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
@@ -180,6 +185,8 @@ footer {
     background: #111;
 }
 
+
+
 .main-content {
     display: flex;
 }
@@ -188,6 +195,8 @@ footer {
     flex-basis: 50%;
     padding: 10px 20px;
 }
+
+/*nadpisy*/
 
 .box h2 {
     font-size: 1.125rem;
@@ -209,7 +218,7 @@ footer {
     background: #1a1a1a;
 }
 
-.box .content::after{
+.box .content:after{
     position: absolute;
     content: '';
     height: 2px;
@@ -217,6 +226,10 @@ footer {
     background: #f12020;
     top: -10px;
 }
+
+/*konec nadpisů*/
+
+
 
 .left .content p{
     text-align: justify;
@@ -245,6 +258,9 @@ footer {
     background: #f12020;
 } 
 
+
+/*social ikony*/
+
 .center .content .fas{
   font-size: 1.4375rem;
   background: #1a1a1a;
@@ -267,19 +283,35 @@ footer {
 .center .content .phone{
   margin: 15px 0;
 }
-.right form .text2{
+
+
+
+
+.right-box {
+  padding-left: 20px;
+  padding-bottom: 10px;
+  margin: 5px 0px;
+}
+
+.right-box p{
+  color: red;
+}
+
+.right form .text{
   font-size: 1.0625rem;
   margin-bottom: 2px;
   color: #656565;
-}
+  }
+  
 .right form .msg{
   margin-top: 10px;
 }
 .right form input, .right form .msgForm{
+  font-size: 1.0625rem;
   width: 100%;
   font-size: 1.0625rem;
   background: #151515;
-  padding-left: 10px;
+  padding-left: 20px;
   border: 1px solid #222222;
 }
 .right form input:focus,
@@ -291,7 +323,14 @@ footer {
 }
 .right form .btn{
   margin-top: 10px;
+  text-align: center;
 }
+
+.btn {
+  background-color: #3e3d3db0;
+  padding: 0 0 0 0;
+}
+
 .right form .btn button{
   height: 40px;
   width: 100%;
@@ -306,6 +345,9 @@ footer {
 .right form .btn button:hover{
   background: #000;
 }
+
+
+
 .bottom center{
   padding: 5px;
   font-size: 0.9375rem;
@@ -321,6 +363,9 @@ footer {
 .bottom center a:hover{
   text-decoration: underline;
 }
+
+
+
 @media screen and (max-width: 900px) {
   footer{
     position: relative;
