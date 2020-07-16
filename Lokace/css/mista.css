@@ -16,6 +16,7 @@ iframe{
 
 .obsah{ 
     margin: 10%;
+    width: 60vw;
     column-count: 2;
     column-gap: 40px;
     column-rule-style: solid;
@@ -23,6 +24,12 @@ iframe{
     column-rule-color: #928476;
     color: #2e1c0a !important;
 }
+
+section {
+  padding: 0rem 0rem 6rem 0rem;
+
+}
+
 
 
 /*footer-kontakty*/
