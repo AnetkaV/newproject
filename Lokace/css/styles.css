@@ -111,8 +111,8 @@ section {
 
 .dropdown-item {
   width: 100% !important;
-  background-color: #ceb296;
-  color: #413a33;
+  background-color: #ffd2f9;
+  color: #b33572;
   padding: 16px;
   font-size: 16px;
   border: none;
@@ -122,7 +122,7 @@ section {
 .dropdown-menu{
   width: 100% !important;
   text-shadow: none !important;
-  background-color: #ceb296 !important;
+  background-color: #ffd2f9 !important;
   border-radius: 0%;
   margin-top: 0;
   border: none;
@@ -132,18 +132,18 @@ section {
   display: inline-block;
   text-shadow: none !important;
   right: 0;
-  color: #94500b !important;
+  color: #b33572 !important;
 }
 .sort {
-  background-color: #a77544 !important;
-  color: #dbab7c !important;
+  background-color: #ffd2f9 !important;
+  color: #b33572 !important;
   width: 100% !important;
   border-radius: 0%;
   text-align: left;
 }
 .dropdown-item:hover{
-  color: #2e1c0a !important;
-  background-color: #ceb296 !important;
+  color: #b33572 !important;
+  background-color: #ffd2f9  !important;
   font-weight: bold;
 }
 .car:hover{
@@ -154,7 +154,7 @@ section {
 }
 
 .bcrnd{
-  background-color: #ceb296;
+  background-color: ##f3e6be ;
 
 }
 
