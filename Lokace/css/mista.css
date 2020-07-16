@@ -2,7 +2,7 @@
 body{
     margin: 0;
     background-color: #e2ded5;
-    color: #2e1c0a !important;
+    color: #2e1c0a;
 }
 
 iframe{
@@ -30,13 +30,14 @@ iframe{
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 *{
   margin: 0;
-  padding: 0;
-  color: #d9d9d9 ;
+  padding: 0;;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
 
-
+.main-content {
+  color: #d9d9d9;
+}
 
 footer {
     position: static;
@@ -146,7 +147,8 @@ footer {
 
 
 
-.right-box {
+
+.right {
   padding-left: 20px;
   padding-bottom: 10px;
   margin: 5px 0px;
@@ -155,7 +157,7 @@ footer {
 .hvezdicka{
   color: red;
 }
-
+ 
 .right form .text{
   font-size: 1.0625rem;
   margin-bottom: 2px;
@@ -169,7 +171,6 @@ footer {
   font-size: 1.0625rem;
   width: 100%;
   font-size: 1.0625rem;
-  background: ;
   padding-left: 20px;
   border: 1px solid #222222;
 }
@@ -185,7 +186,7 @@ footer {
   text-align: center;
 }
 
-.btn {
+.btn1 {
   background-color: #3e3d3db0;
   padding: 0 0 0 0;
 }
