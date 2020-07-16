@@ -59,7 +59,14 @@ img {
 }
 
 
-
+}
+header{
+  background-color: #ceb296;
+}
+.korona {
+  text-decoration-color: rgb(49, 58, 69);
+  background-color: white;
+}
 
 section {
   padding: 0rem 0rem 6rem 0rem;
@@ -106,10 +113,11 @@ section {
 .hidden {
   visibility: hidden;
 }
+
 .dropdown-item {
   width: 100% !important;
-  background-color: #dbab7c;
-  color: #413a33;
+  background-color: #ffd2f9;
+  color: #b33572;
   padding: 16px;
   font-size: 16px;
   border: none;
@@ -118,32 +126,28 @@ section {
 }
 .dropdown-menu{
   width: 100% !important;
-  z-index: 0 !important;
   text-shadow: none !important;
-  background-color: #dbab7c !important;
+  background-color: #ffd2f9  !important;
   border-radius: 0%;
   margin-top: 0;
   border: none;
-  z-index: 0 !important;
 }
 .dropdown {
   width: 100% !important;
   display: inline-block;
   text-shadow: none !important;
   right: 0;
-  color: #94500b !important;
-  z-index: 0 !important;
+  color: #b33572 !important;
 }
 .sort {
-  background-color: #413a33 !important;
-  color: #dbab7c !important;
+  background-color:#ffd2f9  !important;
+  color: #b33572 !important;
   width: 100% !important;
-  border-radius: 0%;
   text-align: left;
 }
 .dropdown-item:hover{
-  color: #2e1c0a !important;
-  background-color: #dbab7c !important;
+  color: #b33572 !important;
+  background-color: #b8e3ea  !important;
   font-weight: bold;
 }
 .car:hover{
@@ -151,10 +155,13 @@ section {
 }
 .btn{
   box-shadow: none !important;
+  font-size: 20px;
 }
-
+.btn-secondary{
+  border-color: #f3e6be !important;
+}
 .bcrnd{
-  background-color: #dbab7c;
+  background-color: #f3e6be ;
 
 }
 
