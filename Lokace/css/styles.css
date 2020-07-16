@@ -285,7 +285,7 @@ footer {
 
 
 
-.right-box {
+.right {
   padding-left: 20px;
   padding-bottom: 10px;
   margin: 5px 0px;
@@ -308,7 +308,6 @@ footer {
   font-size: 1.0625rem;
   width: 100%;
   font-size: 1.0625rem;
-  background: #151515;
   padding-left: 20px;
   border: 1px solid #222222;
 }
